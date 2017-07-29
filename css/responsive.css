@@ -221,6 +221,8 @@ header nav .login_btn:hover{
 /*  Listing Section  */
 
 .listings ul.properties_list{
+    padding-top: 20px;
+    padding-bottom: 20px;
     list-style: none;
     overflow: hidden;
 }
