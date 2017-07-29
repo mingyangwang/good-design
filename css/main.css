@@ -68,6 +68,17 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 h1, h2, h3, h4,
 h5, h6          { font-weight: bolder }
 
+.quote {
+    padding-top: 40px;
+    color:#95badf;
+    width: 100%;
+    height: 200px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 200px;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+}
+
 .clearfix:before,  
 .clearfix:after {  
     content: " ";  
@@ -226,6 +237,7 @@ header nav ul li{
 
 /*  footer  */
 footer{
+    text-align: center!important;
     padding-top: 100px;
     background: #95badf;
 }
@@ -235,10 +247,11 @@ footer .footer > ul{
 }
 
 footer .footer > ul > li{
+        text-align: center!important;
     display: block;
     float: left;
     list-style: none;
-    margin-right: 60px;
+   /* margin-right: 60px;*/
 }
 
 footer .footer > ul > li:last-child{
