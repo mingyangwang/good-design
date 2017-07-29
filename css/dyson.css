@@ -55,6 +55,12 @@ body{
     position: relative;
 }
 
+.l1,.l2,.l3,.l4,.l5,.l6{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
 h1, h2, h3, h4, h5 ,h6{
     color: #626262;
     font-family: "lato-regular", Helvetica, Arial, sans-serif;
@@ -188,13 +194,18 @@ header nav .login_btn:hover{
 
 /*  Listing Section  */
 
-.product1 h2{
+ p{
+    display: block;
     width: 100%;
+    max-width: 1000px;
     height: 200px;
     font-family: "lato", Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #9d9d9d;
-
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 
