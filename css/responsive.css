@@ -330,22 +330,21 @@ footer .footer > ul > li:last-child{
     margin-right: 0;
 }
 
-
 footer .footer > ul > li.links{
-    width: 220px;
+    width: 320px;
 }
 
 footer ul li.links > ul > li{
     display: block;
     width: 100%;
     list-style: none;
-    margin-bottom: 27px;
+    margin: 27px 0;
 }
 
 footer ul li.links > ul > li:last-child{
     margin-bottom: 0;
 }
-
+/*
 footer .footer > ul > li.links li a{
     text-decoration: none;
     display: block;
@@ -354,7 +353,17 @@ footer .footer > ul > li.links li a{
     font-size: 16px;
     letter-spacing: .5px;
     text-align: left;
+}*/
+footer .footer > ul > li.links li a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+    text-align: center;
 }
+
 
 footer .footer > ul > li.about{
     width: 80px;
@@ -379,28 +388,7 @@ footer ul li.about > ul > li:last-child{
     margin-right: 0;
 }
 
-footer ul li.about > ul > li a{
-    background: url('../img/social_media.png') no-repeat;
-}
 
-footer ul li.about > ul > li a.facebook{
-    display: block;
-    width: 10px;
-    height: 18px;
-    background-position: 0 0;
-}
-footer ul li.about > ul > li a.twitter{
-    display: block;
-    width: 19px;
-    height: 18px;
-    background-position: -11px 0px;
-}
-footer ul li.about > ul > li a.google{
-    display: block;
-    width: 10px;
-    height: 18px;
-    background-position: -31px 0px;
-}
 
 
 footer .copyrights{
